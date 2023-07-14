@@ -46,8 +46,7 @@ function draw() {
     textAlign(CENTER);
     textSize(24);
     fill(0, 102, 160);
-    text("Go counter-clockwise around the dot", 0, -height/2 + 50);
-    //text("Try to avoid concave shapes", 0, -height/2 + 100);
+    text("Click counter-clockwise around the dot", 0, -height/2 + 50);
     
     strokeWeight(10);
     point(0, 0);
